@@ -3,6 +3,10 @@
 ```
 pip install uv
 ```
+If you have *pyproject.toml* file, run the following command and skip the steps 2 and 3.
+```
+uv sync
+```
 2) Initialize the workspace
 ```
 uv init
